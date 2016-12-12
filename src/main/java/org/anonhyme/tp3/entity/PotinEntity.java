@@ -4,10 +4,13 @@ import javax.persistence.*;
 import java.sql.Time;
 
 /**
- * Created by Anonhyme on 12/3/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/3/2016.
  */
 @Entity
-@Table(name = "TP2_POTIN", schema = "ANONHYME", catalog = "")
+@Table(name = "TP2_POTIN", schema = "ANONHYME")
 public class PotinEntity {
     @Id
     @Column(name = "NO_POTIN")

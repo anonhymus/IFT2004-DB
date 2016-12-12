@@ -18,6 +18,7 @@
             <property name="eclipselink.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
             <property name="eclipselink.jdbc.user" value="anonhyme"/>
             <property name="eclipselink.jdbc.password" value="Uber4jar"/>
+            <property name="eclipselink.allow-zero-id" value="true"/>
         </properties>
     </persistence-unit>
 </persistence>

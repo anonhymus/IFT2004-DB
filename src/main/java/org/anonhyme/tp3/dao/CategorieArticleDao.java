@@ -5,12 +5,14 @@ import org.anonhyme.tp3.entity.EntityManagerSingleton;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
-import javax.persistence.Transient;
 import java.util.List;
 import java.util.TreeMap;
 
 /**
- * Created by Anonhyme on 12/4/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/4/2016.
  */
 public class CategorieArticleDao {
     EntityManager entityManager = EntityManagerSingleton.getInstance();
@@ -30,9 +32,8 @@ public class CategorieArticleDao {
 
     }
 
-    public List<CategorieArticleEntity> getCategories(){
+    public List<CategorieArticleEntity> getCategories() {
         Query query = entityManager.createQuery("select c from CategorieArticleEntity c");
-        List<CategorieArticleEntity> list = query.getResultList();
-        return list;
+        return (List<CategorieArticleEntity>) query.getResultList();
     }
 }

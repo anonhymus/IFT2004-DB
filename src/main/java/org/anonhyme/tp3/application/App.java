@@ -3,23 +3,12 @@ package org.anonhyme.tp3.application;
 import lombok.Getter;
 import org.anonhyme.tp3.dao.*;
 import org.anonhyme.tp3.entity.*;
-import sun.java2d.pipe.SpanShapeRenderer;
 
 import javax.swing.*;
 import javax.swing.text.JTextComponent;
-import javax.swing.text.html.HTML;
 import java.awt.*;
-import java.lang.reflect.Array;
-import java.sql.Date;
-import java.sql.Time;
-import java.sql.Timestamp;
-
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
 
 /**
  * Created by Anonhyme on 12/4/2016.
@@ -53,10 +42,11 @@ public class App {
         this.frame = new RootFrame();
         this.refreshDataModel();
 
-        frame.getComboboxAuteur().setModel(modelComboBoxAuteur);
-        frame.getComboBoxCategorie().setModel(modelComboBoxCategorie);
-        frame.getComboboxAuteur().setSelectedIndex(-1);
-        frame.getComboBoxCategorie().setSelectedIndex(-1);
+//        frame.getComboboxAuteur().setModel(modelComboBoxAuteur);
+//        frame.getComboBoxCategorie().setModel(modelComboBoxCategorie);
+//        frame.getComboboxAuteur().setSelectedIndex(-1);
+//        frame.getComboBoxCategorie().setSelectedIndex(-1);
+        this.refreshDataModel();
 
 
         formulaire = new ReponseFormulaire();
@@ -81,13 +71,19 @@ public class App {
         modelComboBoxCategorie = new DefaultComboBoxModel(categorieArticleDao.getCategories().toArray());
         modelComboBoxCategorieSearch = new DefaultComboBoxModel(categorieArticleDao.getCategories().toArray());
 
-        modelComboBoxAuteur = new DefaultComboBoxModel(chroniqueurs.toArray());
-        modelComboBoxAuteurSearch = new DefaultComboBoxModel(chroniqueurs.toArray());
+        modelComboBoxAuteur = new DefaultComboBoxModel(journalistes.toArray());
+        modelComboBoxAuteurSearch = new DefaultComboBoxModel(journalistes.toArray());
 
-        for(JournalisteEntity journaliste : journalistes) {
-            modelComboBoxAuteurSearch.addElement(journaliste);
-            modelComboBoxAuteur.addElement(journaliste);
+        for(ChroniqueurEntity chroniqueur : chroniqueurs) {
+            modelComboBoxAuteurSearch.addElement(chroniqueur);
+//            modelComboBoxAuteur.addElement(chroniqueur);
         }
+        frame.getComboboxAuteur().removeAllItems();
+        frame.getComboBoxCategorie().removeAllItems();
+        frame.getComboboxAuteur().setModel(modelComboBoxAuteur);
+        frame.getComboBoxCategorie().setModel(modelComboBoxCategorie);
+        frame.getComboboxAuteur().setSelectedIndex(-1);
+        frame.getComboBoxCategorie().setSelectedIndex(-1);
     }
 
     public void setFormulaire(ReponseFormulaire formulaire) {
@@ -100,84 +96,115 @@ public class App {
             searchDialog.setVisible(true);
             frame.getModelListeArticle().removeAllElements();
             if(!searchDialog.isCancel()) {
-                doSearch();
+                switch(formulaire.getRequestParamCount()) {
+                    case 0:
+                        this.searchWithNoParam();
+                        break;
+                    case 1:
+                        this.searchWithOneParam();
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        break;
+                    case 5:
+                        break;
+                    default:
+                        break;
+                }
             }
         });
         frame.getBtnPurger().addActionListener(e -> this.clearInput());
 
         frame.getBtnAjouter().addActionListener(e -> {
-            this.derniereSelection = (ArticleEntity) frame.getModelListeArticle().get(
-                    frame.getListeArticle().getSelectedIndex());
             this.clearInput();
+            this.refreshDataModel();
+//            frame.getComboboxAuteur().setModel(modelComboBoxAuteur);
+//            frame.getComboBoxCategorie().setModel(modelComboBoxCategorie);
+//            this.derniereSelection = (ArticleEntity) frame.getModelListeArticle().get(
+//                    frame.getListeArticle().getSelectedIndex());
+//            this.clearInput();
         });
-        frame.getBtnAnnuler().addActionListener(e->{
+        frame.getBtnEnregistrer().addActionListener(e -> {
+            this.ajouterArticle();
+
+        });
+        frame.getBtnAnnuler().addActionListener(e -> {
             if(this.derniereSelection != null) {
 
             }
         });
     }
 
-    private void doSearch() {
+    private void searchWithNoParam() {
+        for(ArticleEntity articleEntity : articleDao.getArticles()) {
+            frame.getModelListeArticle().addElement(articleEntity);
+        }
+    }
+
+    private void searchWithOneParam() {
         List<ArticleEntity> articles;
-        if(formulaire.getRequestParam().size() == 1) {
-            String key = formulaire.getRequestParam().get(0);
-            if(key.equals("titre")) {
+        FormulaireInputType key = formulaire.getRequestParam().get(0);
+        switch(key) {
+            case TITRE:
                 int articleTrouve = 0;
-                ArticleEntity article = articleDao.getArticleByTitre(formulaire.getTitre());
+                ArticleEntity article = articleDao.findArticleByTitre(formulaire.getTitre());
                 if(article != null) {
                     articleTrouve = 1;
                 }
-
                 updateResultatRecherche(articleTrouve);
                 frame.updateArticleModel(article);
-            } else if(key.equals("auteur")) {
-                if(formulaire.getAuteur().getType() == AuteurType.JOURNALISTE) {
-                    articles = articleDao.getArticleByAuteur((AuteurEntity) formulaire.getAuteur());
-                    frame.getTextAreaResultat().setText(String.format(HTML_CONTAINER,
-                                                                      "Résultat(s) trouvé: " + articles.size()));
-                    frame.updateArticleModel(articles);
+                break;
+            case AUTEUR:
+                switch(formulaire.getAuteur().getType()) {
+                    case CHRONIQUEUR:
+                        List<ChroniqueEntity> chroniques = chroniqueDao.findArticleByAuteur(
+                                (AuteurEntity) formulaire.getAuteur());
+                        updateResultatRecherche(chroniques.size());
+                        frame.updateArticleModel(chroniques);
+                        break;
+                    case JOURNALISTE:
+                        articles = articleDao.findArticlesByAuteur((AuteurEntity) formulaire.getAuteur());
+                        updateResultatRecherche(articles.hashCode());
+                        frame.updateArticleModel(articles);
+                        break;
 
-                } else if(formulaire.getAuteur().getType() == AuteurType.CHRONIQUEUR) {
-                    List<ChroniqueEntity> chroniques = chroniqueDao.getArticleByAuteur(
-                            (AuteurEntity) formulaire.getAuteur());
-                    updateResultatRecherche(chroniques.size());
-                    frame.updateArticleModel(chroniques);
                 }
-
-            } else if(key.equals("categorie")) {
-                articles = articleDao.getArticleByCategorie(formulaire.getCategorie());
+                break;
+            case CATEGORIE:
+                articles = articleDao.findArticleByCategorie(formulaire.getCategorie());
                 updateResultatRecherche(articles.size());
                 frame.updateArticleModel(articles);
-
-            } else if(key.equals("dateMiseAJour")) {
-                articles = articleDao.getArticlesByDateMiseAJour(formulaire.getDateMiseAjour());
+                break;
+            case TEXTE:
+                articles = articleDao.findArticleByTexte(formulaire.getTexte());
                 updateResultatRecherche(articles.size());
                 frame.updateArticleModel(articles);
-
-            } else if(key.equals("datePublication")) {
-                articles = articleDao.getArticlesByDatePublication(formulaire.getDatePublication());
+                break;
+            case DATE_MISE_A_JOUR:
+                articles = articleDao.findArticlesByDateMiseAJour(formulaire.getDateMiseAjour());
                 updateResultatRecherche(articles.size());
                 frame.updateArticleModel(articles);
-            }
+                break;
+            case DATE_PUBLICATION:
+                articles = articleDao.findArticlesByDatePublication(formulaire.getDatePublication());
+                updateResultatRecherche(articles.size());
+                frame.updateArticleModel(articles);
+                break;
+            default:
+
         }
-        if(formulaire.getRequestParam().size() < 1) {
-            for(ArticleEntity articleEntity : articleDao.getArticles()) {
-                frame.getModelListeArticle().addElement(articleEntity);
-            }
-        }
-
     }
 
     private void updateResultatRecherche(int i) {
         frame.getTextAreaResultat().setText(String.format(HTML_CONTAINER, "Résultat(s) trouvé: " + i));
     }
 
-    private void registerInput(JTextComponent component) {
-        inputComponents.add(component);
-    }
-
     private void ajouterArticle() {
         ArticleEntity article = new ArticleEntity();
+        article.setAuteur((JournalisteEntity) frame.getComboboxAuteur().getSelectedItem());
         article.setTitreArt(frame.getTextFieldTitre().getText());
         article.setTexteArt(frame.getTextAreaTexte().getText());
         article.setLeadArt(frame.getTextAreaLead().getText());
@@ -189,6 +216,7 @@ public class App {
     }
 
     private void clearInput() {
+        frame.getListeArticle().removeAll();
         frame.getTextFieldTitre().setText(null);
         frame.getTextAreaTexte().setText(null);
         frame.getTextFieldNoArticle().setText(null);
@@ -198,10 +226,13 @@ public class App {
         frame.getTextFieldLatitude().setText(null);
         frame.getTextAreaResultat().setText(null);
         frame.getLabelPhotoIcon().setText(null);
-        modelComboBoxAuteur.removeAllElements();
-        modelComboBoxAuteurSearch.removeAllElements();
-        modelComboBoxAuteurSearch.removeAllElements();
-        modelComboBoxCategorie.removeAllElements();
+        frame.getComboboxAuteur().removeAllItems();
+        frame.getComboBoxCategorie().removeAllItems();
+
+//        modelComboBoxAuteur.removeAllElements();
+//        modelComboBoxAuteurSearch.removeAllElements();
+//        modelComboBoxAuteurSearch.removeAllElements();
+//        modelComboBoxCategorie.removeAllElements();
     }
 
 }

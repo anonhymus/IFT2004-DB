@@ -1,20 +1,20 @@
 package org.anonhyme.tp3.entity;
 
-import javafx.scene.paint.PhongMaterial;
-import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.sql.Time;
 import java.sql.Timestamp;
 
 /**
- * Created by Anonhyme on 12/3/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/3/2016.
  */
 @Entity
-@Table(name = "TP2_CHRONIQUE", schema = "ANONHYME", catalog = "")
+@Table(name = "TP2_CHRONIQUE", schema = "ANONHYME")
 @Getter
 @Setter
 @EqualsAndHashCode
@@ -64,9 +64,9 @@ public class ChroniqueEntity implements ArticleBase {
     @Override
     public String toString() {
         return String.valueOf(noChronique) + ", "
-                + titreChr + ", "
-                + chroniqueur.getNom() + " "
-                + chroniqueur.getPrenom();
+               + titreChr + ", "
+               + chroniqueur.getNom() + " "
+               + chroniqueur.getPrenom();
     }
 
     @Override

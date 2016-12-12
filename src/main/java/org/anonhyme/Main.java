@@ -6,7 +6,10 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 /**
- * Created by Anonhyme on 12/3/2016.
+ * tp3
+
+ * @autor Anonhyme
+ * @Date 12/3/2016.
  */
 
 public class Main {

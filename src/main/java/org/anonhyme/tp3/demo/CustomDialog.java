@@ -1,11 +1,10 @@
 package org.anonhyme.tp3.demo;
 
-import javax.swing.JOptionPane;
-import javax.swing.JDialog;
-import javax.swing.JTextField;
-import java.beans.*; //property change stuff
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 
 /* 1.4 example used by DialogDemo.java. */
 class CustomDialog extends JDialog
@@ -44,7 +43,7 @@ class CustomDialog extends JDialog
         //Create an array of the text and components to be displayed.
         String msgString1 = "What was Dr. SEUSS's real last name?";
         String msgString2 = "(The answer is \"" + magicWord
-                + "\".)";
+                            + "\".)";
         Object[] array = {msgString1, msgString2, textField};
 
         //Create an array specifying the number of dialog buttons
@@ -53,11 +52,11 @@ class CustomDialog extends JDialog
 
         //Create the JOptionPane.
         optionPane = new JOptionPane(array,
-                JOptionPane.QUESTION_MESSAGE,
-                JOptionPane.YES_NO_OPTION,
-                null,
-                options,
-                options[0]);
+                                     JOptionPane.QUESTION_MESSAGE,
+                                     JOptionPane.YES_NO_OPTION,
+                                     null,
+                                     options,
+                                     options[0]);
 
         //Make this dialog display it.
         setContentPane(optionPane);
@@ -103,13 +102,13 @@ class CustomDialog extends JDialog
     public void propertyChange(PropertyChangeEvent e) {
         String prop = e.getPropertyName();
 
-        if (isVisible()
-                && (e.getSource() == optionPane)
-                && (JOptionPane.VALUE_PROPERTY.equals(prop) ||
-                JOptionPane.INPUT_VALUE_PROPERTY.equals(prop))) {
+        if(isVisible()
+           && (e.getSource() == optionPane)
+           && (JOptionPane.VALUE_PROPERTY.equals(prop) ||
+               JOptionPane.INPUT_VALUE_PROPERTY.equals(prop))) {
             Object value = optionPane.getValue();
 
-            if (value == JOptionPane.UNINITIALIZED_VALUE) {
+            if(value == JOptionPane.UNINITIALIZED_VALUE) {
                 //ignore reset
                 return;
             }
@@ -121,10 +120,10 @@ class CustomDialog extends JDialog
             optionPane.setValue(
                     JOptionPane.UNINITIALIZED_VALUE);
 
-            if (btnString1.equals(value)) {
+            if(btnString1.equals(value)) {
                 typedText = textField.getText();
                 String ucText = typedText.toUpperCase();
-                if (magicWord.equals(ucText)) {
+                if(magicWord.equals(ucText)) {
                     //we're done; clear and dismiss the dialog
                     clearAndHide();
                 } else {
@@ -133,9 +132,9 @@ class CustomDialog extends JDialog
                     JOptionPane.showMessageDialog(
                             CustomDialog.this,
                             "Sorry, \"" + typedText + "\" "
-                                    + "isn't a valid response.\n"
-                                    + "Please enter "
-                                    + magicWord + ".",
+                            + "isn't a valid response.\n"
+                            + "Please enter "
+                            + magicWord + ".",
                             "Try again",
                             JOptionPane.ERROR_MESSAGE);
                     typedText = null;
@@ -143,8 +142,8 @@ class CustomDialog extends JDialog
                 }
             } else { //user closed dialog or clicked cancel
                 dd.setLabel("It's OK.  "
-                        + "We won't force you to type "
-                        + magicWord + ".");
+                            + "We won't force you to type "
+                            + magicWord + ".");
                 typedText = null;
                 clearAndHide();
             }

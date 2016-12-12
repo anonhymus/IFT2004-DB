@@ -5,7 +5,10 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * Created by Anonhyme on 12/3/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/3/2016.
  */
 public class OracleJDBC {
 
@@ -31,7 +34,7 @@ public class OracleJDBC {
 
         }
 
-        if (connection != null) {
+        if(connection != null) {
             System.out.println("You made it, take control your database now!");
         } else {
             System.out.println("Failed to make connection!");

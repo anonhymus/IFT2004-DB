@@ -4,81 +4,81 @@ import org.anonhyme.tp3.entity.*;
 
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
-import java.sql.Date;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Predicate;
+import javax.persistence.criteria.Root;
 import java.sql.Timestamp;
 import java.util.List;
 
 /**
- * Created by Anonhyme on 12/7/2016.
+ * tp3
+ * org.anonhyme.tp3.dao.ArticleDao
+ *
+ * @author Anonhyme
+ * @Date 12/7/2016.
  */
 public class ArticleDao {
     EntityManager em = EntityManagerSingleton.getInstance();
-
-//    @PersistenceContext(unitName = "NewPersistenceUnit")
-//    private EntityManager em = entityManagerFactory;
-
+//    CriteriaBuilder criteriaBuilder = em.getCriteriaBuilder();
+//    CriteriaQuery<ArticleEntity> criteriaQuery = criteriaBuilder.createQuery(ArticleEntity.class);
+//    Root<ArticleEntity> articleRoot = criteriaQuery.from(ArticleEntity.class);
+//    Predicate condition = criteriaBuilder.gt(articleRoot.get(Article_.))
 
     public List<ArticleEntity> getArticles() {
-//        em.getTransaction().begin();
-        return (List<ArticleEntity>) em.createQuery("select ae from ArticleEntity ae", ArticleEntity.class)
-                                       .getResultList();
+        return em.createQuery("select ae from ArticleEntity ae", ArticleEntity.class)
+                 .getResultList();
     }
 
     public void addArticles(ArticleEntity articleEntity) {
-
+        em.getTransaction().begin();
+//        articleEntity.setNoArticle(1000);
+        articleEntity.setDatePublicationArt(new Timestamp(System.currentTimeMillis()));
+        articleEntity.setDateMiseAJourArt(new Timestamp(System.currentTimeMillis()));
+        em.persist(articleEntity);
+        em.getTransaction().commit();
+        em.close();
     }
 
-    public ArticleEntity getArticleById(long noArticle) {
-        return em.find(ArticleEntity.class, noArticle);
+    public List<ArticleEntity> findArticlesByAuteur(AuteurEntity auteur) {
+
+        return em.createQuery("SELECT j from ArticleEntity j where j.auteur=:auteur", ArticleEntity.class)
+                 .setParameter("auteur", auteur)
+                 .getResultList();
     }
 
-    //Todo fetch chronique
-    public List<ArticleEntity> getArticlesByAuteur(AuteurEntity auteurEntity) {
-        TypedQuery<JournalisteEntity> query;
-        if (auteurEntity.getType() == AuteurType.JOURNALISTE) {
-            query = em.createQuery("SELECT j from JournalisteEntity j where j.id=:noJournaliste", JournalisteEntity.class)
-                      .setParameter("noJournaliste", auteurEntity.getId());
-            return query.getSingleResult().getArticles();
-        } else {
-            return null;
-        }
+    public ArticleEntity findArticleByTitre(String titre) {
+        return em.createQuery("SELECT j from ArticleEntity j where j.titreArt=:titre", ArticleEntity.class)
+                 .setParameter("titre", titre)
+                 .getSingleResult();
     }
 
+    public List<ArticleEntity> findArticlesByDatePublication(Timestamp date) {
 
-    public List<ArticleEntity> getArticlesByAuteurNom(String auteur) {
-        TypedQuery<JournalisteEntity> query = em.createQuery("SELECT j from JournalisteEntity j where j.nom=:nomJournaliste", JournalisteEntity.class)
-                                                .setParameter("nomJournaliste", auteur);
-        return query.getSingleResult().getArticles();
+        return em.createQuery(
+                "SELECT j from ArticleEntity j where j.datePublicationArt=:date", ArticleEntity.class)
+                 .setParameter("date", date)
+                 .getResultList();
     }
 
-    public ArticleEntity getArticleByTitre(String titre) {
-        TypedQuery<ArticleEntity> query = em.createQuery("SELECT j from ArticleEntity j where j.titreArt=:titre", ArticleEntity.class)
-                                            .setParameter("titre", titre);
+    public List<ArticleEntity> findArticlesByDateMiseAJour(Timestamp date) {
 
-        return query.getSingleResult();
+        return em.createQuery("SELECT j from ArticleEntity j where j.dateMiseAJourArt=:date",
+                              ArticleEntity.class)
+                 .setParameter("date", date).getResultList();
     }
 
-    public List<ArticleEntity> getArticlesByDatePublication(Timestamp date) {
-        TypedQuery<ArticleEntity> query = em.createQuery("SELECT j from ArticleEntity j where j.datePublicationArt=:date", ArticleEntity.class)
-                                            .setParameter("date", date);
-        return query.getResultList();
+    public List<ArticleEntity> findArticleByCategorie(CategorieArticleEntity categorie) {
+
+        return em.createQuery(
+                "SELECT j from ArticleEntity j where j.categorieArticle=:categorie", ArticleEntity.class)
+                 .setParameter("categorie", categorie)
+                 .getResultList();
     }
 
-    public List<ArticleEntity> getArticlesByDateMiseAJour(Timestamp date) {
-        TypedQuery<ArticleEntity> query = em.createQuery("SELECT j from ArticleEntity j where j.dateMiseAJourArt=:date", ArticleEntity.class)
-                                            .setParameter("date", date);
-        return query.getResultList();
-    }
-
-    public List<ArticleEntity> getArticleByAuteur(AuteurEntity auteur) {
-        TypedQuery<ArticleEntity> query = em.createQuery("SELECT j from ArticleEntity j where j.auteur=:auteur", ArticleEntity.class)
-                                            .setParameter("auteur", auteur);
-        return query.getResultList();
-    }
-
-    public List<ArticleEntity> getArticleByCategorie(CategorieArticleEntity categorie) {
-        TypedQuery<ArticleEntity> query = em.createQuery("SELECT j from ArticleEntity j where j.categorieArticle=:categorie", ArticleEntity.class)
-                                            .setParameter("categorie", categorie);
-        return query.getResultList();
+    public List<ArticleEntity> findArticleByTexte(String texte) {
+        return em.createQuery("SELECT j from ArticleEntity j where j.texteArt=:texte", ArticleEntity.class)
+                 .setParameter("texte", texte)
+                 .getResultList();
     }
 }

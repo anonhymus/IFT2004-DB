@@ -1,13 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/CategorieArticleDao.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a655184-bc62-48fa-aa9e-8dfb81d1a6c0" name="Default" comment="" />
+    <list default="true" id="9a655184-bc62-48fa-aa9e-8dfb81d1a6c0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/Main.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/OracleJDBC.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/OracleJDBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/App.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/ReponseFormulaire.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/ReponseFormulaire.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/RootFrame.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/RootFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/SearchDialog.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/SearchDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ArticleDao.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ArticleDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/CategorieArticleDao.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/CategorieArticleDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueDao.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueurDao.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueurDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/InsoliteDao.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/InsoliteDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/JournalisteDao.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/JournalisteDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/PotinDao.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/PotinDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/CustomDialog.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/CustomDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/DialogDemo.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/DialogDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/ModalityDemo.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/ModalityDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleBase.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleEntity.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleType.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/AuteurEntity.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/AuteurEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/AuteurType.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/AuteurType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/CategorieArticleEntity.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/CategorieArticleEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ChroniqueEntity.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ChroniqueEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ChroniqueurEntity.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ChroniqueurEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/CommentaireEntity.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/CommentaireEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/EntityManagerSingleton.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/EntityManagerSingleton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/InsoliteEntity.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/InsoliteEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/JournalisteEntity.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/JournalisteEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/LecteurEntity.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/LecteurEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/PotinEntity.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/PotinEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/SourcePhotoEntity.java" afterPath="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/SourcePhotoEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tp3.iml" afterPath="$PROJECT_DIR$/tp3.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,6 +99,38 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="TP2_ARTICLE" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -76,33 +141,19 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="158" column="57" lean-forward="false" selection-start-line="158" selection-start-column="57" selection-end-line="158" selection-end-column="57" />
+            <state relative-caret-position="146">
+              <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RootFrame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/RootFrame.java">
+      <file leaf-file-name="ChroniqueDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="72" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReponseFormulaire.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/ReponseFormulaire.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,12 +161,42 @@
       <file leaf-file-name="ArticleDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ArticleDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="60" column="69" lean-forward="false" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
+            <state relative-caret-position="368">
+              <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="453" column="4" lean-forward="true" selection-start-line="453" selection-start-column="4" selection-end-line="453" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormulaireInputType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/FormulaireInputType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReponseFormulaire.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/ReponseFormulaire.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#846#847#0" expanded="false" />
-                <element signature="e#908#909#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,23 +205,52 @@
       <file leaf-file-name="ArticleEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1909#1910#0" expanded="false" />
-                <element signature="e#1951#1952#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="21" column="81" lean-forward="false" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/SearchDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="144" column="58" lean-forward="true" selection-start-line="144" selection-start-column="58" selection-end-line="144" selection-end-column="58" />
+      <file leaf-file-name="ANONHYME.TP2_ARTICLE" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/f124f5e0/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/ANONHYME.TP2_ARTICLE">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ANONHYME.TP2_CATEGORIE_ARTICLE" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/f124f5e0/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/ANONHYME.TP2_CATEGORIE_ARTICLE">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RootFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/RootFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="71" column="53" lean-forward="false" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
+              <folding>
+                <element signature="method#updateArticleModel#1;class#RootFrame#0" expanded="false" />
+                <element signature="method#init#0;class#RootFrame#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,16 +260,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>abs</find>
-      <find>entityManager.close()</find>
       <find>typedText</find>
       <find>getVal</find>
       <find>catego</find>
@@ -168,7 +276,6 @@
       <find>cate</find>
       <find>chroniqueurs</find>
       <find>combobo</find>
-      <find>combo</find>
       <find>categorieCombobox</find>
       <find>modelComboBoxCategorie</find>
       <find>getMo</find>
@@ -184,7 +291,21 @@
       <find>bevel</find>
       <find>setTe</find>
       <find>model</find>
+      <find>${PACKAGE_NAME}</find>
+      <find>\/\*\*\n \* tp3\n \* \&quot;\&quot;</find>
+      <find>updateResultatRecherche(articles.size());</find>
+      <find>ajouterArticle</find>
+      <find>modelListeArt</find>
+      <find>NO_SOURCE_PHOTO</find>
+      <find>combo</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&quot;&quot;</replace>
+      <replace>\/\*\*\n \* tp3\n</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -197,26 +318,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/ui/GuiTP3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/ui/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/DaoModule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/CategorieArticleDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/InsoliteDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/EntityManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/EntityManagerFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/EntityManagerFactorySingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/GenericDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/CommentaireEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/InsoliteEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/LecteurEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/PotinEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/SourcePhotoEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/AuteurDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueurDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/EntityManagerSingleton.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/ModalityDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/void/ModalityDemo.java" />
@@ -225,29 +334,41 @@
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/CustomDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/DialogDemo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/CategorieArticleDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/CategorieArticleEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/AuteurEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ChroniqueurEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/JournalisteEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/AuteurType.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/repository/ArticleRepository.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/SimpleSearchDialog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/JournalisteDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueDao.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ChroniqueEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/SearchDialog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/ReponseFormulaire.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ArticleDao.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/RootFrame.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/CategorieArticleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueurDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/JournalisteDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/CategorieArticleEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ChroniqueEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/SourcePhotoEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/PotinEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/LecteurEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/InsoliteEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/CommentaireEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/RootFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/SearchDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/OracleJDBC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/FormulaireInputType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/ReponseFormulaire.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/Article_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/App.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ArticleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleEntity.java" />
       </list>
     </option>
   </component>
@@ -315,6 +436,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -330,20 +454,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tp3" />
@@ -383,6 +495,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -506,40 +626,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anonhyme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -547,6 +633,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -563,16 +651,18 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="JPA.DatabaseSchemaImportDialog" value="3413934c-b52f-4b5d-a9f7-7b8bb0b91e69" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="SQL&#10;JAVA" />
     <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="Oracle" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\antoi\IdeaProjects\tp3\src\main\java\org\anonhyme\model" />
-    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="org.anonhyme.tp3.entity" />
       <recent name="org.anonhyme.model" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.anonhyme.tp3.dao" />
+      <recent name="org.anonhyme.tp3.repository" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\antoi\IdeaProjects\tp3\lib" />
@@ -583,9 +673,8 @@
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="org.anonhyme.tp3" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.anonhyme.tp3.dao" />
-      <recent name="org.anonhyme.tp3.repository" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\antoi\IdeaProjects\tp3\src\main\java\org\anonhyme\model" />
     </key>
   </component>
   <component name="RunManager" selected="Application.App">
@@ -1113,12 +1202,13 @@
       <workItem from="1481411507664" duration="17211000" />
       <workItem from="1481462619453" duration="14547000" />
       <workItem from="1481496124653" duration="7000" />
-      <workItem from="1481515047515" duration="2334000" />
+      <workItem from="1481515047515" duration="3277000" />
+      <workItem from="1481518347622" duration="13247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148365000" />
+    <option name="totallyTimeSpent" value="162555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1135,16 +1225,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.50501674" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1684435" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1977612" sideWeight="0.48445874" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43837085" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977612" sideWeight="0.48445874" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17750533" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2636656" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2368703" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1152,11 +1243,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2454448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4949833" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19509594" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20095949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20309168" sideWeight="0.50375134" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20309168" sideWeight="0.49624866" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1167,8 +1260,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977612" sideWeight="0.51554126" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1211,6 +1302,25 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -1218,49 +1328,43 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/ReponseFormulaire.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/SearchDialog.java</url>
-          <line>62</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/App.java</url>
-          <line>159</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/App.java</url>
-          <line>163</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/RootFrame.java</url>
-          <line>23</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/ReponseFormulaire.java</url>
-          <line>71</line>
+          <url>file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/App.java</url>
+          <line>98</line>
           <properties />
-          <option name="timeStamp" value="59" />
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/ReponseFormulaire.java</url>
-          <line>70</line>
+          <url>file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/App.java</url>
+          <line>100</line>
           <properties />
-          <option name="timeStamp" value="60" />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/App.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ArticleDao.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="61" />
+      <option name="time" value="67" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1269,163 +1373,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/EntityManagerSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" column="67" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueurDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/ModalityDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="555" column="45" lean-forward="true" selection-start-line="555" selection-start-column="45" selection-end-line="555" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/beans/PropertyChangeListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/javax/swing/JDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="1045" column="16" lean-forward="false" selection-start-line="1045" selection-start-column="16" selection-end-line="1045" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/awt/event/ActionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/awt/Dialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="1146" column="17" lean-forward="false" selection-start-line="1146" selection-start-column="17" selection-end-line="1146" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/DialogDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/javax/swing/JOptionPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="1833" column="11" lean-forward="false" selection-start-line="1833" selection-start-column="11" selection-end-line="1833" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/CustomDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="119" column="50" lean-forward="true" selection-start-line="119" selection-start-column="50" selection-end-line="119" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/CategorieArticleEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ChroniqueurEntityI.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/ModalityDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/AuteurEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/Login.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/CategorieArticleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/JournalisteEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/repository/ArticleRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/InsoliteDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="221" column="5" lean-forward="true" selection-start-line="221" selection-start-column="5" selection-end-line="221" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/f124f5e0/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/ANONHYME.TP2_POTIN">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/SimpleSearchDialog.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/JournalisteDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="27" column="71" lean-forward="false" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
-          <folding />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/SimpleSearchDialog.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ChroniqueurEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -1435,14 +1395,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/f124f5e0/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/ANONHYME.TP2_JOURNALISTE">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1462,14 +1422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/javax/swing/JComboBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -1478,36 +1430,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/f124f5e0/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/ANONHYME.TP2_CHRONIQUE">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f124f5e0/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/ANONHYME.TP2_ARTICLE">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1515,16 +1445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="577" column="11" lean-forward="false" selection-start-line="577" selection-start-column="11" selection-end-line="577" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ChroniqueEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1584,71 +1504,295 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ArticleDao.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="60" column="69" lean-forward="false" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
+        <state relative-caret-position="272">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/Anonhyme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/DialogDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="200" column="13" lean-forward="false" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/CategorieArticleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueurDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/JournalisteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/demo/CustomDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/CategorieArticleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#846#847#0" expanded="false" />
-            <element signature="e#908#909#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ChroniqueEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1909#1910#0" expanded="false" />
-            <element signature="e#1951#1952#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/SourcePhotoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/PotinEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/OracleJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/SearchDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="144" column="58" lean-forward="true" selection-start-line="144" selection-start-column="58" selection-end-line="144" selection-end-column="58" />
+        <state relative-caret-position="64">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/LecteurEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/InsoliteEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/CommentaireEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/FormulaireInputType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/ReponseFormulaire.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="211">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ChroniqueDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="158" column="57" lean-forward="false" selection-start-line="158" selection-start-column="57" selection-end-line="158" selection-end-column="57" />
+        <state relative-caret-position="192">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/Article_.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="336">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/RootFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="347">
+          <caret line="71" column="53" lean-forward="false" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#updateArticleModel#1;class#RootFrame#0" expanded="false" />
+            <element signature="method#init#0;class#RootFrame#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="43" column="56" lean-forward="false" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/application/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.6.4/eclipselink-2.6.4-sources.jar!/org/eclipse/persistence/internal/jpa/transaction/EntityTransactionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="132" column="92" lean-forward="false" selection-start-line="132" selection-start-column="92" selection-end-line="132" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="69" lean-forward="false" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f124f5e0/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/ANONHYME.TP2_CATEGORIE_ARTICLE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/entity/ArticleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="81" lean-forward="false" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anonhyme/tp3/dao/ArticleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="453" column="4" lean-forward="true" selection-start-line="453" selection-start-column="4" selection-end-line="453" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f124f5e0/3413934c-b52f-4b5d-a9f7-7b8bb0b91e69/ANONHYME.TP2_ARTICLE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -7,7 +7,10 @@ import javax.persistence.EntityManager;
 import java.util.List;
 
 /**
- * Created by Anonhyme on 12/7/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/7/2016.
  */
 
 public class ChroniqueurDao {
@@ -16,9 +19,8 @@ public class ChroniqueurDao {
 
     public List<ChroniqueurEntity> getChroniqueurs() {
 //        em.getTransaction().begin();
-        List<ChroniqueurEntity> chroniqueurs = (List<ChroniqueurEntity>) entityManager.createQuery("select c from ChroniqueurEntity c")
-                                                                                      .getResultList();
-//        em.close();
-        return chroniqueurs;
+        //        em.close();
+        return (List<ChroniqueurEntity>) entityManager.createQuery("select c from ChroniqueurEntity c")
+                                                      .getResultList();
     }
 }

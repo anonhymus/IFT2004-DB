@@ -1,11 +1,14 @@
 package org.anonhyme.tp3.entity;
 
 /**
- * Created by Anonhyme on 12/8/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/8/2016.
  */
 public interface AuteurEntity {
 
-    public AuteurType getType();
+    AuteurType getType();
 
     void setId(long no);
 

@@ -5,10 +5,13 @@ import lombok.Data;
 import javax.persistence.*;
 
 /**
- * Created by Anonhyme on 12/3/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/3/2016.
  */
 @Entity
-@Table(name = "TP2_SOURCE_PHOTO", schema = "ANONHYME", catalog = "")
+@Table(name = "TP2_SOURCE_PHOTO", schema = "ANONHYME")
 @Data
 public class SourcePhotoEntity {
     @Id

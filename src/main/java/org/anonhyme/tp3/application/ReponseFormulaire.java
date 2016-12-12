@@ -2,20 +2,26 @@ package org.anonhyme.tp3.application;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
+import lombok.ToString;
 import org.anonhyme.tp3.entity.AuteurEntity;
 import org.anonhyme.tp3.entity.CategorieArticleEntity;
+import org.anonhyme.tp3.entity.FormulaireInputType;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
-import java.util.TreeMap;
+
+import static org.anonhyme.tp3.entity.FormulaireInputType.*;
 
 /**
- * Created by Anonhyme on 12/8/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/8/2016.
  */
-@EqualsAndHashCode
 @Getter
+@ToString
+@EqualsAndHashCode
 public class ReponseFormulaire {
     private AuteurEntity auteur;
     private String titre;
@@ -23,63 +29,62 @@ public class ReponseFormulaire {
     private CategorieArticleEntity categorie;
     private Timestamp dateMiseAjour;
     private Timestamp datePublication;
-    private List<String> requestParam;
+    private List<FormulaireInputType> requestParam;
+    private int requestParamCount = 0;
 
     public ReponseFormulaire() {
-
         requestParam = new ArrayList<>();
     }
 
     public void setAuteur(AuteurEntity auteur) {
         if(auteur != null) {
-            requestParam.add("auteur");
+            requestParam.add(AUTEUR);
             this.auteur = auteur;
+            this.requestParamCount++;
         }
     }
 
     public void setTitre(String titre) {
         if(!titre.isEmpty()) {
-            requestParam.add("titre");
+            requestParam.add(TITRE);
             this.titre = titre;
+            this.requestParamCount++;
         }
     }
 
     public void setTexte(String texte) {
         if(!texte.isEmpty()) {
-            requestParam.add("texte");
+            requestParam.add(TEXTE);
             this.texte = texte;
+            this.requestParamCount++;
         }
     }
 
     public void setCategorie(CategorieArticleEntity categorie) {
         if(categorie != null) {
-            requestParam.add("categorie");
+            requestParam.add(CATEGORIE);
             this.categorie = categorie;
+            this.requestParamCount++;
         }
     }
 
     public void setDateMiseAjour(String dateMiseAjour) {
         if(!dateMiseAjour.isEmpty()) {
-            requestParam.add("dateMiseAJour");
-
+            requestParam.add(DATE_MISE_A_JOUR);
             this.dateMiseAjour = Timestamp.valueOf(dateMiseAjour);
+            this.requestParamCount++;
         }
     }
 
     public void setDatePublication(String datePublication) {
         if(!datePublication.isEmpty()) {
-            requestParam.add("datePublication");
+            requestParam.add(DATE_PUBLICATION);
             this.datePublication = Timestamp.valueOf(datePublication);
+            this.requestParamCount++;
         }
     }
 
     protected boolean canEqual(Object other) {
         return other instanceof ReponseFormulaire;
-    }
-
-    public String toString() {
-        return "org.anonhyme.tp3.application.ReponseFormulaire(auteur=" + this.getAuteur() + ", titre=" + this.getTitre() + ", texte=" + this
-                .getTexte() + ", categorie=" + this.getCategorie() + ", dateMiseAjour=" + this.getDateMiseAjour() + ", datePublication=" + this
-                       .getDatePublication() + ", requestParam=" + this.getRequestParam() + ")";
     }
 }

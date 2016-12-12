@@ -9,14 +9,18 @@ import javax.persistence.TypedQuery;
 import java.util.List;
 
 /**
- * Created by Anonhyme on 12/7/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/7/2016.
  */
 public class ChroniqueDao {
     EntityManager em = EntityManagerSingleton.getInstance();
 
-    public List<ChroniqueEntity> getArticleByAuteur(AuteurEntity auteur) {
-        TypedQuery<ChroniqueEntity> query = em.createQuery("SELECT c from ChroniqueEntity c where c.chroniqueur=:auteur", ChroniqueEntity.class)
-                                              .setParameter("auteur", auteur);
-        return query.getResultList();
+    public List<ChroniqueEntity> findArticleByAuteur(AuteurEntity auteur) {
+        return em.createQuery(
+                "SELECT c from ChroniqueEntity c where c.chroniqueur=:auteur", ChroniqueEntity.class)
+                 .setParameter("auteur", auteur)
+                 .getResultList();
     }
 }

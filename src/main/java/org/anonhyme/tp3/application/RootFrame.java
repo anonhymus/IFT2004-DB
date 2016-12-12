@@ -15,8 +15,9 @@ import java.util.List;
 
 /**
  * org.anonhyme.tp3.application.RootFrame.java
- * @autor Anonhyme
- * @Date 12/7/2016.
+ *
+ * @author Anonhyme
+ *         12/7/2016.
  */
 @Getter
 public class RootFrame extends JFrame {
@@ -53,7 +54,7 @@ public class RootFrame extends JFrame {
     public RootFrame() throws HeadlessException {
         super();
         this.setBounds(100, 100, 938, 653);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         this.getContentPane().setLayout(null);
         this.setLocationRelativeTo(null);
         this.addWindowListener(new WindowAdapter() {

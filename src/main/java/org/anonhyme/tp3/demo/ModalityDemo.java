@@ -3,11 +3,8 @@ package org.anonhyme.tp3.demo;/*
  *
  */
 
-import java.awt.*;
-import java.awt.event.*;
-import java.awt.font.*;
-
 import javax.swing.*;
+import java.awt.*;
 
 public class ModalityDemo {
     private static void display() {
@@ -22,11 +19,11 @@ public class ModalityDemo {
         panel.add(new JLabel("Field 2:"));
         panel.add(field2);
         int result = JOptionPane.showConfirmDialog(null, panel, "Test",
-                JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
-        if (result == JOptionPane.OK_OPTION) {
+                                                   JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
+        if(result == JOptionPane.OK_OPTION) {
             System.out.println(combo.getSelectedItem()
-                    + " " + field1.getText()
-                    + " " + field2.getText());
+                               + " " + field1.getText()
+                               + " " + field2.getText());
         } else {
             System.out.println("Cancelled");
         }

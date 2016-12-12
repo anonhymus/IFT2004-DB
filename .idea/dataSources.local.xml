@@ -10,7 +10,7 @@
       <secret-storage>master_key</secret-storage>
       <user-name>anonhyme</user-name>
       <resolve-scope>*:ANONHYME</resolve-scope>
-      <table-pattern>TP2.*</table-pattern>
+      <table-pattern>TP2.*||article_seq</table-pattern>
     </data-source>
     <data-source name="NewPersistenceUnit/EclipseLink" uuid="9114d6ab-fc8e-4087-9894-6d555f571213">
       <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">

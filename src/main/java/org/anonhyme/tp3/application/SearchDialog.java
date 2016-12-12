@@ -1,6 +1,5 @@
 package org.anonhyme.tp3.application;
 
-import org.anonhyme.tp3.dao.CategorieArticleDao;
 import org.anonhyme.tp3.entity.AuteurEntity;
 import org.anonhyme.tp3.entity.CategorieArticleEntity;
 import org.anonhyme.tp3.entity.ChroniqueurEntity;
@@ -12,7 +11,10 @@ import java.awt.*;
 import java.util.List;
 
 /**
- * Created by Anonhyme on 12/7/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/7/2016.
  */
 public class SearchDialog extends JDialog {
     private static final int WIDTH_FORM = 160;

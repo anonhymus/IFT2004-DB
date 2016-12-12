@@ -4,11 +4,13 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.sql.Date;
 import java.sql.Timestamp;
 
 /**
- * Created by Anonhyme on 12/3/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/3/2016.
  */
 @Entity
 @Table(name = "TP2_ARTICLE", schema = "ANONHYME")
@@ -17,7 +19,7 @@ import java.sql.Timestamp;
 public class ArticleEntity implements ArticleBase {
     @Id
     @Column(name = "NO_ARTICLE", nullable = false)
-    @GeneratedValue
+    @GeneratedValue(generator = "ARTICLE_SEQ", strategy = GenerationType.SEQUENCE)
     private long noArticle;
 
     @Basic
@@ -68,9 +70,9 @@ public class ArticleEntity implements ArticleBase {
     @Override
     public String toString() {
         return String.valueOf(noArticle) + ", "
-                + titreArt + ", "
-                + auteur.getNom() + " "
-                + auteur.getPrenom();
+               + titreArt + ", "
+               + auteur.getNom() + " "
+               + auteur.getPrenom();
     }
 
     @Override

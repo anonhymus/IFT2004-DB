@@ -5,7 +5,10 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 /**
- * Created by Anonhyme on 12/7/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/7/2016.
  */
 
 public class EntityManagerSingleton {
@@ -19,7 +22,7 @@ public class EntityManagerSingleton {
     }
 
     public static javax.persistence.EntityManager getInstance() {
-        if (instance == null) {
+        if(instance == null) {
             instance = new EntityManagerSingleton();
         }
 

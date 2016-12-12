@@ -1,23 +1,8 @@
 package org.anonhyme.tp3.demo;
 
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.ButtonGroup;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JTabbedPane;
+import javax.swing.*;
 import javax.swing.border.Border;
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.GridLayout;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
@@ -51,8 +36,8 @@ public class DialogDemo extends JPanel {
         JPanel featurePanel = createFeatureDialogBox();
         JPanel iconPanel = createIconDialogBox();
         label = new JLabel("Click the \"Show it!\" button"
-                + " to bring up the selected dialog.",
-                JLabel.CENTER);
+                           + " to bring up the selected dialog.",
+                           JLabel.CENTER);
 
         //Lay them out.
         Border padding = BorderFactory.createEmptyBorder(20, 20, 5, 20);
@@ -62,14 +47,14 @@ public class DialogDemo extends JPanel {
 
         JTabbedPane tabbedPane = new JTabbedPane();
         tabbedPane.addTab("Simple Modal Dialogs", null,
-                frequentPanel,
-                simpleDialogDesc); //tooltip text
+                          frequentPanel,
+                          simpleDialogDesc); //tooltip text
         tabbedPane.addTab("More Dialogs", null,
-                featurePanel,
-                moreDialogDesc); //tooltip text
+                          featurePanel,
+                          moreDialogDesc); //tooltip text
         tabbedPane.addTab("Dialog Icons", null,
-                iconPanel,
-                iconDesc); //tooltip text
+                          iconPanel,
+                          iconDesc); //tooltip text
 
         add(tabbedPane, BorderLayout.CENTER);
         add(label, BorderLayout.PAGE_END);
@@ -88,7 +73,7 @@ public class DialogDemo extends JPanel {
      */
     protected static ImageIcon createImageIcon(String path) {
         java.net.URL imgURL = DialogDemo.class.getResource(path);
-        if (imgURL != null) {
+        if(imgURL != null) {
             return new ImageIcon(imgURL);
         } else {
             System.err.println("Couldn't find file: " + path);
@@ -118,14 +103,14 @@ public class DialogDemo extends JPanel {
         radioButtons[1].setActionCommand(yesNoCommand);
 
         radioButtons[2] = new JRadioButton("Yes/No "
-                + "(in the programmer's words)");
+                                           + "(in the programmer's words)");
         radioButtons[2].setActionCommand(yeahNahCommand);
 
         radioButtons[3] = new JRadioButton("Yes/No/Cancel "
-                + "(in the programmer's words)");
+                                           + "(in the programmer's words)");
         radioButtons[3].setActionCommand(yncCommand);
 
-        for (int i = 0; i < numButtons; i++) {
+        for(int i = 0; i < numButtons; i++) {
             group.add(radioButtons[i]);
         }
         radioButtons[0].setSelected(true);
@@ -136,62 +121,62 @@ public class DialogDemo extends JPanel {
                 String command = group.getSelection().getActionCommand();
 
                 //ok dialog
-                if (command == defaultMessageCommand) {
+                if(command == defaultMessageCommand) {
                     JOptionPane.showMessageDialog(frame,
-                            "Eggs aren't supposed to be green.");
+                                                  "Eggs aren't supposed to be green.");
 
                     //yes/no dialog
-                } else if (command == yesNoCommand) {
+                } else if(command == yesNoCommand) {
                     int n = JOptionPane.showConfirmDialog(
                             frame, "Would you like green eggs and ham?",
                             "An Inane Question",
                             JOptionPane.YES_NO_OPTION);
-                    if (n == JOptionPane.YES_OPTION) {
+                    if(n == JOptionPane.YES_OPTION) {
                         setLabel("Ewww!");
-                    } else if (n == JOptionPane.NO_OPTION) {
+                    } else if(n == JOptionPane.NO_OPTION) {
                         setLabel("Me neither!");
                     } else {
                         setLabel("Come on -- tell me!");
                     }
 
                     //yes/no (not in those words)
-                } else if (command == yeahNahCommand) {
+                } else if(command == yeahNahCommand) {
                     Object[] options = {"Yes, please", "No way!"};
                     int n = JOptionPane.showOptionDialog(frame,
-                            "Would you like green eggs and ham?",
-                            "A Silly Question",
-                            JOptionPane.YES_NO_OPTION,
-                            JOptionPane.QUESTION_MESSAGE,
-                            null,
-                            options,
-                            options[0]);
-                    if (n == JOptionPane.YES_OPTION) {
+                                                         "Would you like green eggs and ham?",
+                                                         "A Silly Question",
+                                                         JOptionPane.YES_NO_OPTION,
+                                                         JOptionPane.QUESTION_MESSAGE,
+                                                         null,
+                                                         options,
+                                                         options[0]);
+                    if(n == JOptionPane.YES_OPTION) {
                         setLabel("You're kidding!");
-                    } else if (n == JOptionPane.NO_OPTION) {
+                    } else if(n == JOptionPane.NO_OPTION) {
                         setLabel("I don't like them, either.");
                     } else {
                         setLabel("Come on -- 'fess up!");
                     }
 
                     //yes/no/cancel (not in those words)
-                } else if (command == yncCommand) {
+                } else if(command == yncCommand) {
                     Object[] options = {"Yes, please",
                             "No, thanks",
                             "No eggs, no ham!"};
                     int n = JOptionPane.showOptionDialog(frame,
-                            "Would you like some green eggs to go "
-                                    + "with that ham?",
-                            "A Silly Question",
-                            JOptionPane.YES_NO_CANCEL_OPTION,
-                            JOptionPane.QUESTION_MESSAGE,
-                            null,
-                            options,
-                            options[2]);
-                    if (n == JOptionPane.YES_OPTION) {
+                                                         "Would you like some green eggs to go "
+                                                         + "with that ham?",
+                                                         "A Silly Question",
+                                                         JOptionPane.YES_NO_CANCEL_OPTION,
+                                                         JOptionPane.QUESTION_MESSAGE,
+                                                         null,
+                                                         options,
+                                                         options[2]);
+                    if(n == JOptionPane.YES_OPTION) {
                         setLabel("Here you go: green eggs and ham!");
-                    } else if (n == JOptionPane.NO_OPTION) {
+                    } else if(n == JOptionPane.NO_OPTION) {
                         setLabel("OK, just the ham, then.");
-                    } else if (n == JOptionPane.CANCEL_OPTION) {
+                    } else if(n == JOptionPane.CANCEL_OPTION) {
                         setLabel("Well, I'm certainly not going to eat them!");
                     } else {
                         setLabel("Please tell me what you want!");
@@ -202,8 +187,8 @@ public class DialogDemo extends JPanel {
         });
 
         return createPane(simpleDialogDesc + ":",
-                radioButtons,
-                showItButton);
+                          radioButtons,
+                          showItButton);
     }
 
     /**
@@ -222,7 +207,7 @@ public class DialogDemo extends JPanel {
         box.setLayout(new BoxLayout(box, BoxLayout.PAGE_AXIS));
         box.add(label);
 
-        for (int i = 0; i < numChoices; i++) {
+        for(int i = 0; i < numChoices; i++) {
             box.add(radioButtons[i]);
         }
 
@@ -243,7 +228,7 @@ public class DialogDemo extends JPanel {
         int numPerColumn = radioButtons.length / 2;
 
         JPanel grid = new JPanel(new GridLayout(0, 2));
-        for (int i = 0; i < numPerColumn; i++) {
+        for(int i = 0; i < numPerColumn; i++) {
             grid.add(radioButtons[i]);
             grid.add(radioButtons[i + numPerColumn]);
         }
@@ -299,7 +284,7 @@ public class DialogDemo extends JPanel {
         radioButtons[5] = new JRadioButton("Custom icon");
         radioButtons[5].setActionCommand(customCommand);
 
-        for (int i = 0; i < numButtons; i++) {
+        for(int i = 0; i < numButtons; i++) {
             group.add(radioButtons[i]);
         }
         radioButtons[0].setSelected(true);
@@ -310,55 +295,55 @@ public class DialogDemo extends JPanel {
                 String command = group.getSelection().getActionCommand();
 
                 //no icon
-                if (command == plainCommand) {
+                if(command == plainCommand) {
                     JOptionPane.showMessageDialog(frame,
-                            "Eggs aren't supposed to be green.",
-                            "A plain message",
-                            JOptionPane.PLAIN_MESSAGE);
+                                                  "Eggs aren't supposed to be green.",
+                                                  "A plain message",
+                                                  JOptionPane.PLAIN_MESSAGE);
                     //information icon
-                } else if (command == infoCommand) {
+                } else if(command == infoCommand) {
                     JOptionPane.showMessageDialog(frame,
-                            "Eggs aren't supposed to be green.",
-                            "Inane informational dialog",
-                            JOptionPane.INFORMATION_MESSAGE);
+                                                  "Eggs aren't supposed to be green.",
+                                                  "Inane informational dialog",
+                                                  JOptionPane.INFORMATION_MESSAGE);
 
                     //XXX: It doesn't make sense to make a question with
                     //XXX: only one button.
                     //XXX: See "Yes/No (but not in those words)" for a better solution.
                     //question icon
-                } else if (command == questionCommand) {
+                } else if(command == questionCommand) {
                     JOptionPane.showMessageDialog(frame,
-                            "You shouldn't use a message dialog "
-                                    + "(like this)\n"
-                                    + "for a question, OK?",
-                            "Inane question",
-                            JOptionPane.QUESTION_MESSAGE);
+                                                  "You shouldn't use a message dialog "
+                                                  + "(like this)\n"
+                                                  + "for a question, OK?",
+                                                  "Inane question",
+                                                  JOptionPane.QUESTION_MESSAGE);
                     //error icon
-                } else if (command == errorCommand) {
+                } else if(command == errorCommand) {
                     JOptionPane.showMessageDialog(frame,
-                            "Eggs aren't supposed to be green.",
-                            "Inane error",
-                            JOptionPane.ERROR_MESSAGE);
+                                                  "Eggs aren't supposed to be green.",
+                                                  "Inane error",
+                                                  JOptionPane.ERROR_MESSAGE);
                     //warning icon
-                } else if (command == warningCommand) {
+                } else if(command == warningCommand) {
                     JOptionPane.showMessageDialog(frame,
-                            "Eggs aren't supposed to be green.",
-                            "Inane warning",
-                            JOptionPane.WARNING_MESSAGE);
+                                                  "Eggs aren't supposed to be green.",
+                                                  "Inane warning",
+                                                  JOptionPane.WARNING_MESSAGE);
                     //custom icon
-                } else if (command == customCommand) {
+                } else if(command == customCommand) {
                     JOptionPane.showMessageDialog(frame,
-                            "Eggs aren't supposed to be green.",
-                            "Inane custom dialog",
-                            JOptionPane.INFORMATION_MESSAGE,
-                            icon);
+                                                  "Eggs aren't supposed to be green.",
+                                                  "Inane custom dialog",
+                                                  JOptionPane.INFORMATION_MESSAGE,
+                                                  icon);
                 }
             }
         });
 
         return create2ColPane(iconDesc + ":",
-                radioButtons,
-                showItButton);
+                              radioButtons,
+                              showItButton);
     }
 
     /**
@@ -387,13 +372,13 @@ public class DialogDemo extends JPanel {
         radioButtons[2].setActionCommand(nonAutoCommand);
 
         radioButtons[3] = new JRadioButton("Input-validating dialog "
-                + "(with custom message area)");
+                                           + "(with custom message area)");
         radioButtons[3].setActionCommand(customOptionCommand);
 
         radioButtons[4] = new JRadioButton("Non-modal dialog");
         radioButtons[4].setActionCommand(nonModalCommand);
 
-        for (int i = 0; i < numButtons; i++) {
+        for(int i = 0; i < numButtons; i++) {
             group.add(radioButtons[i]);
         }
         radioButtons[0].setSelected(true);
@@ -404,12 +389,12 @@ public class DialogDemo extends JPanel {
                 String command = group.getSelection().getActionCommand();
 
                 //pick one of many
-                if (command == pickOneCommand) {
+                if(command == pickOneCommand) {
                     Object[] possibilities = {"ham", "spam", "yam"};
                     String s = (String) JOptionPane.showInputDialog(
                             frame,
                             "Complete the sentence:\n"
-                                    + "\"Green eggs and...\"",
+                            + "\"Green eggs and...\"",
                             "Customized Dialog",
                             JOptionPane.PLAIN_MESSAGE,
                             icon,
@@ -417,7 +402,7 @@ public class DialogDemo extends JPanel {
                             "ham");
 
                     //If a string was returned, say so.
-                    if ((s != null) && (s.length() > 0)) {
+                    if((s != null) && (s.length() > 0)) {
                         setLabel("Green eggs and... " + s + "!");
                         return;
                     }
@@ -426,11 +411,11 @@ public class DialogDemo extends JPanel {
                     setLabel("Come on, finish the sentence!");
 
                     //text input
-                } else if (command == textEnteredCommand) {
+                } else if(command == textEnteredCommand) {
                     String s = (String) JOptionPane.showInputDialog(
                             frame,
                             "Complete the sentence:\n"
-                                    + "\"Green eggs and...\"",
+                            + "\"Green eggs and...\"",
                             "Customized Dialog",
                             JOptionPane.PLAIN_MESSAGE,
                             icon,
@@ -438,7 +423,7 @@ public class DialogDemo extends JPanel {
                             "ham");
 
                     //If a string was returned, say so.
-                    if ((s != null) && (s.length() > 0)) {
+                    if((s != null) && (s.length() > 0)) {
                         setLabel("Green eggs and... " + s + "!");
                         return;
                     }
@@ -447,11 +432,11 @@ public class DialogDemo extends JPanel {
                     setLabel("Come on, finish the sentence!");
 
                     //non-auto-closing dialog
-                } else if (command == nonAutoCommand) {
+                } else if(command == nonAutoCommand) {
                     final JOptionPane optionPane = new JOptionPane(
                             "The only way to close this dialog is by\n"
-                                    + "pressing one of the following buttons.\n"
-                                    + "Do you understand?",
+                            + "pressing one of the following buttons.\n"
+                            + "Do you understand?",
                             JOptionPane.QUESTION_MESSAGE,
                             JOptionPane.YES_NO_OPTION);
 
@@ -460,8 +445,8 @@ public class DialogDemo extends JPanel {
                     //listener that automatically closes the window
                     //when a button is clicked.
                     final JDialog dialog = new JDialog(frame,
-                            "Click a button",
-                            true);
+                                                       "Click a button",
+                                                       true);
                     dialog.setContentPane(optionPane);
                     dialog.setDefaultCloseOperation(
                             JDialog.DO_NOTHING_ON_CLOSE);
@@ -475,9 +460,9 @@ public class DialogDemo extends JPanel {
                                 public void propertyChange(PropertyChangeEvent e) {
                                     String prop = e.getPropertyName();
 
-                                    if (dialog.isVisible()
-                                            && (e.getSource() == optionPane)
-                                            && (JOptionPane.VALUE_PROPERTY.equals(prop))) {
+                                    if(dialog.isVisible()
+                                       && (e.getSource() == optionPane)
+                                       && (JOptionPane.VALUE_PROPERTY.equals(prop))) {
                                         //If you were going to check something
                                         //before closing the window, you'd do
                                         //it here.
@@ -490,12 +475,12 @@ public class DialogDemo extends JPanel {
                     dialog.setVisible(true);
 
                     int value = ((Integer) optionPane.getValue()).intValue();
-                    if (value == JOptionPane.YES_OPTION) {
+                    if(value == JOptionPane.YES_OPTION) {
                         setLabel("Good.");
-                    } else if (value == JOptionPane.NO_OPTION) {
+                    } else if(value == JOptionPane.NO_OPTION) {
                         setLabel("Try using the window decorations "
-                                + "to close the non-auto-closing dialog. "
-                                + "You can't!");
+                                 + "to close the non-auto-closing dialog. "
+                                 + "You can't!");
                     } else {
                         setLabel("Window unavoidably closed (ESC?).");
                     }
@@ -503,36 +488,36 @@ public class DialogDemo extends JPanel {
                     //non-auto-closing dialog with custom message area
                     //NOTE: if you don't intend to check the input,
                     //then just use showInputDialog instead.
-                } else if (command == customOptionCommand) {
+                } else if(command == customOptionCommand) {
                     customDialog.setLocationRelativeTo(frame);
                     customDialog.setVisible(true);
 
                     String s = customDialog.getValidatedText();
-                    if (s != null) {
+                    if(s != null) {
                         //The text is valid.
                         setLabel("Congratulations!  "
-                                + "You entered \""
-                                + s
-                                + "\".");
+                                 + "You entered \""
+                                 + s
+                                 + "\".");
                     }
 
                     //non-modal dialog
-                } else if (command == nonModalCommand) {
+                } else if(command == nonModalCommand) {
                     //Create the dialog.
                     final JDialog dialog = new JDialog(frame,
-                            "A Non-Modal Dialog");
+                                                       "A Non-Modal Dialog");
 
                     //Add contents to it. It must have a close button,
                     //since some L&Fs (notably Java/Metal) don't provide one
                     //in the window decorations for dialogs.
                     JLabel label = new JLabel("<html><p align=center>"
-                            + "This is a non-modal dialog.<br>"
-                            + "You can have one or more of these up<br>"
-                            + "and still use the main window.");
+                                              + "This is a non-modal dialog.<br>"
+                                              + "You can have one or more of these up<br>"
+                                              + "and still use the main window.");
                     label.setHorizontalAlignment(JLabel.CENTER);
                     Font font = label.getFont();
-                    label.setFont(label.getFont().deriveFont(font.PLAIN,
-                            14.0f));
+                    label.setFont(label.getFont().deriveFont(Font.PLAIN,
+                                                             14.0f));
 
                     JButton closeButton = new JButton("Close");
                     closeButton.addActionListener(new ActionListener() {
@@ -543,7 +528,7 @@ public class DialogDemo extends JPanel {
                     });
                     JPanel closePanel = new JPanel();
                     closePanel.setLayout(new BoxLayout(closePanel,
-                            BoxLayout.LINE_AXIS));
+                                                       BoxLayout.LINE_AXIS));
                     closePanel.add(Box.createHorizontalGlue());
                     closePanel.add(closeButton);
                     closePanel.setBorder(BorderFactory.
@@ -564,8 +549,8 @@ public class DialogDemo extends JPanel {
         });
 
         return createPane(moreDialogDesc + ":",
-                radioButtons,
-                showItButton);
+                          radioButtons,
+                          showItButton);
     }
 
     /**

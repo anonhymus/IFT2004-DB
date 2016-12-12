@@ -1,16 +1,18 @@
 package org.anonhyme.tp3.entity;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
 
 /**
- * Created by Anonhyme on 12/3/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/3/2016.
  */
 @Entity
-@Table(name = "TP2_CATEGORIE_ARTICLE", schema = "ANONHYME", catalog = "")
+@Table(name = "TP2_CATEGORIE_ARTICLE", schema = "ANONHYME")
 @Getter
 @Setter
 public class CategorieArticleEntity {

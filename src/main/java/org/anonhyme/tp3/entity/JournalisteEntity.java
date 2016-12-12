@@ -7,13 +7,16 @@ import javax.persistence.*;
 import java.util.List;
 
 /**
- * Created by Anonhyme on 12/3/2016.
+ * tp3
+ *
+ * @autor Anonhyme
+ * @Date 12/3/2016.
  */
 @Entity
 @Table(name = "TP2_JOURNALISTE", schema = "ANONHYME")
 @Getter
 @Setter
-public class JournalisteEntity implements AuteurEntity{
+public class JournalisteEntity implements AuteurEntity {
     @Id
     @Column(name = "NO_JOURNALISTE")
     private long id;
