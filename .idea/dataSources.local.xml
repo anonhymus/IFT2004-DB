@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="@localhost" uuid="3413934c-b52f-4b5d-a9f7-7b8bb0b91e69">
+      <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>anonhyme</user-name>
+      <resolve-scope>*:ANONHYME</resolve-scope>
+      <table-pattern>TP2.*</table-pattern>
+    </data-source>
+    <data-source name="NewPersistenceUnit/EclipseLink" uuid="9114d6ab-fc8e-4087-9894-6d555f571213">
+      <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <user-name>anonhyme</user-name>
+      <user-password>dfffdfc8dfcfdfd8df9edfc0dfcbdfd8</user-password>
+      <resolve-scope>*:ANONHYME,PUBLIC</resolve-scope>
+    </data-source>
+  </component>
+</project>
