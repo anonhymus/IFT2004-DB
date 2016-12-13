@@ -3,16 +3,16 @@
 
     <persistence-unit name="NewPersistenceUnit">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-        <class>org.anonhyme.tp3.entity.ArticleEntity</class>
-        <class>org.anonhyme.tp3.entity.CategorieArticleEntity</class>
-        <class>org.anonhyme.tp3.entity.ChroniqueEntity</class>
-        <class>org.anonhyme.tp3.entity.ChroniqueurEntity</class>
-        <class>org.anonhyme.tp3.entity.CommentaireEntity</class>
-        <class>org.anonhyme.tp3.entity.InsoliteEntity</class>
-        <class>org.anonhyme.tp3.entity.JournalisteEntity</class>
-        <class>org.anonhyme.tp3.entity.LecteurEntity</class>
-        <class>org.anonhyme.tp3.entity.PotinEntity</class>
-        <class>org.anonhyme.tp3.entity.SourcePhotoEntity</class>
+        <class>org.kraken.tp3.entity.ArticleEntity</class>
+        <class>org.kraken.tp3.entity.CategorieArticleEntity</class>
+        <class>org.kraken.tp3.entity.ChroniqueEntity</class>
+        <class>org.kraken.tp3.entity.ChroniqueurEntity</class>
+        <class>org.kraken.tp3.entity.CommentaireEntity</class>
+        <class>org.kraken.tp3.entity.InsoliteEntity</class>
+        <class>org.kraken.tp3.entity.JournalisteEntity</class>
+        <class>org.kraken.tp3.entity.LecteurEntity</class>
+        <class>org.kraken.tp3.entity.PotinEntity</class>
+        <class>org.kraken.tp3.entity.SourcePhotoEntity</class>
         <properties>
             <property name="eclipselink.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
             <property name="eclipselink.jdbc.driver" value="oracle.jdbc.OracleDriver"/>

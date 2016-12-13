@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="aopalliance-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink-2.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.json-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.persistence-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lombok.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/validation-api-1.1.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/jpa/javax.persistence_2.1.1.v201509150925.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/jpa/org.eclipse.persistence.jpa.modelgen_2.6.4.v20160829-44060b6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/jpa/org.eclipse.persistence.jpars_2.6.4.v20160829-44060b6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/extension/org.eclipse.persistence.extension_2.6.4.v20160829-44060b6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/moxy/javax.mail_1.4.0.v201005080615.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/moxy/javax.validation_1.1.0.v201304101302.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/moxy/jaxb-core_2.2.11.v201407311112.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/moxy/jaxb-xjc_2.2.11.v201407311112.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/moxy/org.glassfish.javax.json_1.0.4.v201311181159.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/sdo/commonj.sdo_2.1.1.v201112051852.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/moxy/api/javax.xml.bind_2.2.12.v201410011542.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/javax.persistence-2.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/jpa/javax.persistence.source_2.1.1.v201509150925.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/jpa/org.eclipse.persistence.jpa.modelgen.source_2.6.4.v20160829-44060b6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/jpa/org.eclipse.persistence.jpars.source_2.6.4.v20160829-44060b6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/extension/org.eclipse.persistence.extension.source_2.6.4.v20160829-44060b6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink/jlib/moxy/jaxb-xjc_2.2.11.v201407311112.jar!/" />
+    </SOURCES>
+  </library>
+</component>

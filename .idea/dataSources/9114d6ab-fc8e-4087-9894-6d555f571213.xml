@@ -4,9 +4,9 @@
     <root id="1"/>
     <schema id="2" parent="1" name="ANONHYME">
       <ObjectId>48</ObjectId>
-      <IntrospectionTimestamp>2016-12-12.03:23:24</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2016-12-13.07:46:41</IntrospectionTimestamp>
       <CreatedTimestamp>2016-12-03.16:19:10</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:20:23</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:10:06</ModifiedTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -62,9 +62,9 @@
       <ObjectId>2147483638</ObjectId>
     </schema>
     <sequence id="20" parent="2" name="ARTICLE_SEQ">
-      <ObjectId>20603</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:04:35</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:04:35</ModifiedTimestamp>
+      <ObjectId>20700</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:10:04</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:10:04</ModifiedTimestamp>
       <SequenceIdentity>1</SequenceIdentity>
     </sequence>
     <sequence id="21" parent="2" name="DEMO_CUST_SEQ">
@@ -183,59 +183,59 @@
       <ModifiedTimestamp>2016-12-03.16:19:10</ModifiedTimestamp>
     </table>
     <table id="43" parent="2" name="TP2_ARTICLE">
-      <ObjectId>20583</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:20:23</ModifiedTimestamp>
+      <ObjectId>20684</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:10:06</ModifiedTimestamp>
     </table>
     <table id="44" parent="2" name="TP2_CATEGORIE_ARTICLE">
-      <ObjectId>20568</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20669</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
     </table>
     <table id="45" parent="2" name="TP2_CHRONIQUE">
-      <ObjectId>20587</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20688</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
     </table>
     <table id="46" parent="2" name="TP2_CHRONIQUEUR">
-      <ObjectId>20571</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20672</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
     </table>
     <table id="47" parent="2" name="TP2_COMMENTAIRE">
-      <ObjectId>20591</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20692</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
     </table>
     <table id="48" parent="2" name="TP2_INSOLITE">
-      <ObjectId>20593</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20694</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
     </table>
     <table id="49" parent="2" name="TP2_JOURNALISTE">
-      <ObjectId>20574</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20675</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
     </table>
     <table id="50" parent="2" name="TP2_LECTEUR">
-      <ObjectId>20577</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20678</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
     </table>
     <table id="51" parent="2" name="TP2_POTIN">
-      <ObjectId>20595</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20696</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
     </table>
     <table id="52" parent="2" name="TP2_SOURCE_PHOTO">
-      <ObjectId>20580</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20681</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
     </table>
     <view id="53" parent="2" name="VIEW_HIERARCHIE_COMMENTAIRE">
       <ObjectId>20598</ObjectId>
       <CreatedTimestamp>2016-12-12.03:00:56</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:56</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:09:25</ModifiedTimestamp>
       <Modifiable>1</Modifiable>
     </view>
     <routine id="54" parent="2" name="CUSTOM_AUTH">
@@ -266,7 +266,7 @@
       <ObjectId>20602</ObjectId>
       <RoutineKind>procedure</RoutineKind>
       <CreatedTimestamp>2016-12-12.03:00:56</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:56</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:09:43</ModifiedTimestamp>
     </routine>
     <column id="59" parent="26" name="ID">
       <Position>1</Position>
@@ -2279,86 +2279,86 @@ CUST_FIRST_NAME</ColNames>
       <DataType>NUMBER(8,6)|0</DataType>
     </column>
     <index id="481" parent="43" name="PK_ARTICLE">
-      <ObjectId>20584</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20685</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>NO_ARTICLE</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="482" parent="43" name="SYS_C007288">
-      <ObjectId>20585</ObjectId>
+    <index id="482" parent="43" name="SYS_C007507">
+      <ObjectId>20686</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>LEAD_ART</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="483" parent="43" name="SYS_C007289">
-      <ObjectId>20586</ObjectId>
+    <index id="483" parent="43" name="SYS_C007508">
+      <ObjectId>20687</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>TEXTE_ART</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="484" parent="43" name="PK_ARTICLE">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+    <index id="484" parent="43" name="IDX_ARTICLE_TITRE">
+      <ObjectId>20699</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:09:43</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:09:43</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>TITRE_ART</ColNames>
+    </index>
+    <key id="485" parent="43" name="PK_ARTICLE">
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_ARTICLE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>PK_ARTICLE</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <key id="485" parent="43" name="SYS_C007288">
+    <key id="486" parent="43" name="SYS_C007507">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>LEAD_ART</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C007288</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C007507</UnderlyingIndexName>
     </key>
-    <key id="486" parent="43" name="SYS_C007289">
+    <key id="487" parent="43" name="SYS_C007508">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>TEXTE_ART</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C007289</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C007508</UnderlyingIndexName>
     </key>
-    <foreign-key id="487" parent="43" name="FK_NO_JOURNALISTE">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+    <foreign-key id="488" parent="43" name="FK_NO_JOURNALISTE">
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_JOURNALISTE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>TP2_JOURNALISTE</RefTableName>
       <RefKeyName>PK_JOURNALISTE</RefKeyName>
     </foreign-key>
-    <foreign-key id="488" parent="43" name="FK_ARTICLE_CATEGORIE">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+    <foreign-key id="489" parent="43" name="FK_ARTICLE_CATEGORIE">
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>CODE_CATEGORIE_ARTICLE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>TP2_CATEGORIE_ARTICLE</RefTableName>
       <RefKeyName>PK_CATEGORIE_ARTICLE</RefKeyName>
     </foreign-key>
-    <foreign-key id="489" parent="43" name="FK_NO_SOURCE_PHOTO">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+    <foreign-key id="490" parent="43" name="FK_NO_SOURCE_PHOTO">
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_SOURCE_PHOTO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>TP2_SOURCE_PHOTO</RefTableName>
       <RefKeyName>PK_SOURCE_PHOTO</RefKeyName>
     </foreign-key>
-    <trigger id="490" parent="43" name="SEQUENCE_TRIGGER">
-      <ObjectId>20604</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:20:23</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:20:23</ModifiedTimestamp>
+    <trigger id="491" parent="43" name="SEQUENCE_TRIGGER">
+      <ObjectId>20638</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:10:06</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:10:06</ModifiedTimestamp>
       <Events>I</Events>
       <Turn>before-row</Turn>
-    </trigger>
-    <trigger id="491" parent="43" name="TRG_BU_DATE_ARTICLE">
-      <ObjectId>20599</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:56</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:56</ModifiedTimestamp>
-      <Events>IU</Events>
-      <Turn>after-row</Turn>
     </trigger>
     <column id="492" parent="44" name="CODE_CATEGORIE_ARTICLE">
       <Position>1</Position>
@@ -2371,35 +2371,35 @@ CUST_FIRST_NAME</ColNames>
       <NotNull>1</NotNull>
     </column>
     <index id="494" parent="44" name="PK_CATEGORIE_ARTICLE">
-      <ObjectId>20569</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20670</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>CODE_CATEGORIE_ARTICLE</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="495" parent="44" name="SYS_C007254">
-      <ObjectId>20570</ObjectId>
+    <index id="495" parent="44" name="SYS_C007473">
+      <ObjectId>20671</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>NOM_CATEGORIE_ART</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="496" parent="44" name="PK_CATEGORIE_ARTICLE">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>CODE_CATEGORIE_ARTICLE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>PK_CATEGORIE_ARTICLE</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <key id="497" parent="44" name="SYS_C007254">
+    <key id="497" parent="44" name="SYS_C007473">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NOM_CATEGORIE_ART</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C007254</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C007473</UnderlyingIndexName>
     </key>
     <column id="498" parent="45" name="NO_CHRONIQUE">
       <Position>1</Position>
@@ -2461,61 +2461,61 @@ CUST_FIRST_NAME</ColNames>
       <DataType>NUMBER(8,6)|0</DataType>
     </column>
     <index id="511" parent="45" name="PK_CHRONIQUE">
-      <ObjectId>20588</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20689</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>NO_CHRONIQUE</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="512" parent="45" name="SYS_C007301">
-      <ObjectId>20589</ObjectId>
+    <index id="512" parent="45" name="SYS_C007520">
+      <ObjectId>20690</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>LEAD_CHR</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="513" parent="45" name="SYS_C007302">
-      <ObjectId>20590</ObjectId>
+    <index id="513" parent="45" name="SYS_C007521">
+      <ObjectId>20691</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>TEXTE_CHR</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="514" parent="45" name="PK_CHRONIQUE">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_CHRONIQUE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>PK_CHRONIQUE</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <key id="515" parent="45" name="SYS_C007301">
+    <key id="515" parent="45" name="SYS_C007520">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>LEAD_CHR</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C007301</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C007520</UnderlyingIndexName>
     </key>
-    <key id="516" parent="45" name="SYS_C007302">
+    <key id="516" parent="45" name="SYS_C007521">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>TEXTE_CHR</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C007302</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C007521</UnderlyingIndexName>
     </key>
     <foreign-key id="517" parent="45" name="FK_CHRONIQUE_SOURCE_PHOTO">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_SOURCE_PHOTO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>TP2_SOURCE_PHOTO</RefTableName>
       <RefKeyName>PK_SOURCE_PHOTO</RefKeyName>
     </foreign-key>
     <foreign-key id="518" parent="45" name="FK_CHRONIQUE_CHRONIQUEUR">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_CHRONIQUEUR</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>TP2_CHRONIQUEUR</RefTableName>
@@ -2546,35 +2546,35 @@ CUST_FIRST_NAME</ColNames>
       <NotNull>1</NotNull>
     </column>
     <index id="524" parent="46" name="PK_CHRONIQUEUR">
-      <ObjectId>20572</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20673</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>NO_CHRONIQUEUR</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="525" parent="46" name="SYS_C007260">
-      <ObjectId>20573</ObjectId>
+    <index id="525" parent="46" name="SYS_C007479">
+      <ObjectId>20674</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>COURRIEL_CHO</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="526" parent="46" name="PK_CHRONIQUEUR">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_CHRONIQUEUR</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>PK_CHRONIQUEUR</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <key id="527" parent="46" name="SYS_C007260">
+    <key id="527" parent="46" name="SYS_C007479">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>COURRIEL_CHO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C007260</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C007479</UnderlyingIndexName>
     </key>
     <column id="528" parent="47" name="NO_COMMENTAIRE">
       <Position>1</Position>
@@ -2590,13 +2590,13 @@ CUST_FIRST_NAME</ColNames>
       <Position>3</Position>
       <DataType>NUMBER(1)|0</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="531" parent="47" name="BOOL_EST_APPROUVE_COM">
       <Position>4</Position>
       <DataType>NUMBER(1)|0</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="532" parent="47" name="DATE_COM">
       <Position>5</Position>
@@ -2613,29 +2613,29 @@ CUST_FIRST_NAME</ColNames>
       <DataType>NUMBER(6)|0</DataType>
     </column>
     <index id="535" parent="47" name="PK_COMMENTAIRE">
-      <ObjectId>20592</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20693</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>NO_COMMENTAIRE</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="536" parent="47" name="PK_COMMENTAIRE">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_COMMENTAIRE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>PK_COMMENTAIRE</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="537" parent="47" name="FK_COMMENTAIRE_NOM_USAGER">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NOM_USAGER_LECTEUR</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>TP2_LECTEUR</RefTableName>
       <RefKeyName>PK_LECTEUR</RefKeyName>
     </foreign-key>
     <foreign-key id="538" parent="47" name="FK_COMMENTAIRE_PARENT">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_COMMENTAIRE_PARENT</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>TP2_COMMENTAIRE</RefTableName>
@@ -2678,22 +2678,22 @@ CUST_FIRST_NAME</ColNames>
       <DataType>NUMBER(8,6)|0</DataType>
     </column>
     <index id="547" parent="48" name="PK_INSOLITE">
-      <ObjectId>20594</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20695</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>DATE_PUBLICATION_INS</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="548" parent="48" name="PK_INSOLITE">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>DATE_PUBLICATION_INS</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>PK_INSOLITE</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="549" parent="48" name="FK_INSOLITE_SOURCE_PHOTO">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_SOURCE_PHOTO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>TP2_SOURCE_PHOTO</RefTableName>
@@ -2724,35 +2724,35 @@ CUST_FIRST_NAME</ColNames>
       <NotNull>1</NotNull>
     </column>
     <index id="555" parent="49" name="PK_JOURNALISTE">
-      <ObjectId>20575</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20676</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>NO_JOURNALISTE</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="556" parent="49" name="SYS_C007266">
-      <ObjectId>20576</ObjectId>
+    <index id="556" parent="49" name="SYS_C007485">
+      <ObjectId>20677</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>COURRIEL_JOU</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="557" parent="49" name="PK_JOURNALISTE">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_JOURNALISTE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>PK_JOURNALISTE</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <key id="558" parent="49" name="SYS_C007266">
+    <key id="558" parent="49" name="SYS_C007485">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>COURRIEL_JOU</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C007266</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C007485</UnderlyingIndexName>
     </key>
     <column id="559" parent="50" name="NOM_USAGER_LECTEUR">
       <Position>1</Position>
@@ -2782,38 +2782,38 @@ CUST_FIRST_NAME</ColNames>
       <Position>6</Position>
       <DataType>NUMBER(1)|0</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <index id="565" parent="50" name="PK_LECTEUR">
-      <ObjectId>20578</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20679</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>NOM_USAGER_LECTEUR</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="566" parent="50" name="SYS_C007273">
-      <ObjectId>20579</ObjectId>
+    <index id="566" parent="50" name="SYS_C007492">
+      <ObjectId>20680</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>COURRIEL_LEC</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="567" parent="50" name="PK_LECTEUR">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NOM_USAGER_LECTEUR</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>PK_LECTEUR</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <key id="568" parent="50" name="SYS_C007273">
+    <key id="568" parent="50" name="SYS_C007492">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>COURRIEL_LEC</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C007273</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C007492</UnderlyingIndexName>
     </key>
     <column id="569" parent="51" name="NO_POTIN">
       <Position>1</Position>
@@ -2854,45 +2854,45 @@ CUST_FIRST_NAME</ColNames>
       <DataType>NUMBER(6)|0</DataType>
     </column>
     <index id="578" parent="51" name="PK_POTIN">
-      <ObjectId>20596</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20697</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>NO_POTIN</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="579" parent="51" name="SYS_C007321">
-      <ObjectId>20597</ObjectId>
+    <index id="579" parent="51" name="SYS_C007540">
+      <ObjectId>20698</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>TEXTE_POT</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="580" parent="51" name="PK_POTIN">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_POTIN</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>PK_POTIN</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <key id="581" parent="51" name="SYS_C007321">
+    <key id="581" parent="51" name="SYS_C007540">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>TEXTE_POT</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C007321</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C007540</UnderlyingIndexName>
     </key>
     <foreign-key id="582" parent="51" name="FK_POTIN_SOURCE_PHOTO">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_SOURCE_PHOTO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>TP2_SOURCE_PHOTO</RefTableName>
       <RefKeyName>PK_SOURCE_PHOTO</RefKeyName>
     </foreign-key>
     <foreign-key id="583" parent="51" name="FK_POTIN_JOURNALISTE">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_JOURNALISTE_POT</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <RefTableName>TP2_JOURNALISTE</RefTableName>
@@ -2909,35 +2909,35 @@ CUST_FIRST_NAME</ColNames>
       <NotNull>1</NotNull>
     </column>
     <index id="586" parent="52" name="PK_SOURCE_PHOTO">
-      <ObjectId>20581</ObjectId>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ObjectId>20682</ObjectId>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>NO_SOURCE_PHOTO</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="587" parent="52" name="SYS_C007277">
-      <ObjectId>20582</ObjectId>
+    <index id="587" parent="52" name="SYS_C007496">
+      <ObjectId>20683</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2016-12-12.03:00:55</CreatedTimestamp>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <CreatedTimestamp>2016-12-12.14:08:37</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>NOM_COMPLET_SOU</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="588" parent="52" name="PK_SOURCE_PHOTO">
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NO_SOURCE_PHOTO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>PK_SOURCE_PHOTO</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <key id="589" parent="52" name="SYS_C007277">
+    <key id="589" parent="52" name="SYS_C007496">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2016-12-12.03:00:55</ModifiedTimestamp>
+      <ModifiedTimestamp>2016-12-12.14:08:37</ModifiedTimestamp>
       <ColNames>NOM_COMPLET_SOU</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C007277</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C007496</UnderlyingIndexName>
     </key>
     <column id="590" parent="53" name="ARBRE">
       <Position>1</Position>
