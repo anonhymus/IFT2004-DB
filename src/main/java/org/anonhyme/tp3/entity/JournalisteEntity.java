@@ -1,8 +1,5 @@
 package org.anonhyme.tp3.entity;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import javax.persistence.*;
 import java.util.List;
 
@@ -14,8 +11,6 @@ import java.util.List;
  */
 @Entity
 @Table(name = "TP2_JOURNALISTE", schema = "ANONHYME")
-@Getter
-@Setter
 public class JournalisteEntity implements AuteurEntity {
     @Id
     @Column(name = "NO_JOURNALISTE")
@@ -44,5 +39,53 @@ public class JournalisteEntity implements AuteurEntity {
     @Override
     public AuteurType getType() {
         return AuteurType.JOURNALISTE;
+    }
+
+    public long getId() {
+        return this.id;
+    }
+
+    public String getNom() {
+        return this.nom;
+    }
+
+    public String getPrenom() {
+        return this.prenom;
+    }
+
+    public String getPhoto() {
+        return this.photo;
+    }
+
+    public String getCourriel() {
+        return this.courriel;
+    }
+
+    public List<ArticleEntity> getArticles() {
+        return this.articles;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
+    }
+
+    public void setCourriel(String courriel) {
+        this.courriel = courriel;
+    }
+
+    public void setArticles(List<ArticleEntity> articles) {
+        this.articles = articles;
     }
 }

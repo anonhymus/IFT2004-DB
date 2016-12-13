@@ -21,7 +21,7 @@ import java.util.List;
  */
 @Getter
 public class RootFrame extends JFrame {
-
+    private static final String TITLE = "Db Explorer";
     // --- UI COMPONENTS ------
     private JLabel labelAuteur;
     private JComboBox<AuteurEntity> comboboxAuteur;
@@ -99,7 +99,7 @@ public class RootFrame extends JFrame {
 
     private void setListeAricles() {
         JLabel labelListeArticles = new JLabel("Liste des articles");
-        labelListeArticles.setBounds(10, 11, 86, 14);
+        labelListeArticles.setBounds(10, 11, 200, 14);
 
         JScrollPane scrollpaneListeArticles = new JScrollPane();
         scrollpaneListeArticles.setBounds(10, 25, 592, 115);
@@ -113,23 +113,8 @@ public class RootFrame extends JFrame {
         listeArticle.setBackground(new Color(255, 255, 255));
         listeArticle.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 
-        listeArticle.addListSelectionListener(e -> {
-            if(listeArticle.getSelectedIndex() != -1) {
-                if(((ArticleBase) modelListeArticle.get(
-                        listeArticle.getSelectedIndex())).getType() == ArticleType.ARTICLE) {
-                    ArticleEntity article = (ArticleEntity) modelListeArticle.get(listeArticle.getSelectedIndex());
-                    textFieldNoArticle.setText("" + article.getNoArticle());
-                    comboboxAuteur.setSelectedItem(article.getAuteur());
-                    textFieldTitre.setText(article.getTitreArt());
-                    textFieldExergues.setText(article.getExergueArt());
-                    textAreaLead.setText(article.getLeadArt());
-                    textAreaTexte.setText(article.getTexteArt());
-                    comboBoxCategorie.setSelectedItem(article.getCategorieArticle());
-                    textFieldLongitude.setText("" + article.getLongitudeArt());
-                }
-            }
+        listeArticle.addListSelectionListener(e -> this.refreshSelectionForm());
 
-        });
         scrollpaneListeArticles.setViewportView(listeArticle);
     }
 
@@ -215,7 +200,7 @@ public class RootFrame extends JFrame {
 
     private void initResultat() {
         JLabel labelResultat = new JLabel("R\u00E9sultat");
-        labelResultat.setBounds(10, 384, 46, 14);
+        labelResultat.setBounds(10, 384, 100, 14);
         this.getContentPane().add(labelResultat);
 
         textAreaResultat = new JLabel();
@@ -256,7 +241,7 @@ public class RootFrame extends JFrame {
     }
 
     private void initButton() {
-        btnRechercher = new JButton("Rechercher...");
+        btnRechercher = new JButton("Recherche");
         btnRechercher.setBounds(10, 580, 120, 23);
         this.getContentPane().add(btnRechercher);
 
@@ -264,21 +249,47 @@ public class RootFrame extends JFrame {
         btnAjouter.setBounds(140, 580, 77, 23);
         this.getContentPane().add(btnAjouter);
 
+        btnPurger = new JButton("Purger");
+        btnPurger.setBounds(295, 580, 99, 23);
+        this.getContentPane().add(btnPurger);
+
+        btnAnnuler = new JButton("Annuler");
+        btnAnnuler.setBounds(404, 580, 89, 23);
+        this.getContentPane().add(btnAnnuler);
+
+        btnEnregistrer = new JButton("Enregistrer");
+        btnEnregistrer.setBounds(503, 580, 99, 23);
+        this.getContentPane().add(btnEnregistrer);
+
+
         btnQuitter = new JButton("Quitter");
         btnQuitter.setBounds(823, 580, 89, 23);
         this.getContentPane().add(btnQuitter);
 
-        btnEnregistrer = new JButton("Enregistrer");
-        btnEnregistrer.setBounds(513, 580, 89, 23);
-        this.getContentPane().add(btnEnregistrer);
+    }
 
-        btnAnnuler = new JButton("Annuler");
-        btnAnnuler.setBounds(414, 580, 89, 23);
-        this.getContentPane().add(btnAnnuler);
+    public void refreshSelectionForm() {
+        if(listeArticle.getSelectedIndex() != -1) {
+            if(((ArticleBase) modelListeArticle.get(
+                    listeArticle.getSelectedIndex())).getType() == ArticleType.ARTICLE) {
+                ArticleEntity article = (ArticleEntity) modelListeArticle.get(listeArticle.getSelectedIndex());
+                textFieldNoArticle.setText("" + article.getNoArticle());
+                comboboxAuteur.setSelectedItem(article.getAuteur());
+                textFieldTitre.setText(article.getTitreArt());
+                textFieldExergues.setText(article.getExergueArt());
+                textAreaLead.setText(article.getLeadArt());
+                textAreaTexte.setText(article.getTexteArt());
+                comboBoxCategorie.setSelectedItem(article.getCategorieArticle());
+                textFieldLongitude.setText(String.valueOf(article.getLongitudeArt()));
+                textFieldLatitude.setText(String.valueOf(article.getLatitudeArt()));
+            }
+        }
 
-        btnPurger = new JButton("Purger...");
-        btnPurger.setBounds(305, 580, 99, 23);
-        this.getContentPane().add(btnPurger);
+    }
+
+    @Override
+    public void setTitle(String mode) {
+        super.setTitle(String.format("Mode: %s [%s]", TITLE, mode));
 
     }
 

@@ -1,8 +1,5 @@
 package org.anonhyme.tp3.entity;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import javax.persistence.*;
 
 /**
@@ -13,8 +10,6 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "TP2_CATEGORIE_ARTICLE", schema = "ANONHYME")
-@Getter
-@Setter
 public class CategorieArticleEntity {
     @Id
     @Column(name = "CODE_CATEGORIE_ARTICLE")
@@ -27,5 +22,21 @@ public class CategorieArticleEntity {
     @Override
     public String toString() {
         return nomCategorieArt;
+    }
+
+    public String getCodeCategorieArticle() {
+        return this.codeCategorieArticle;
+    }
+
+    public String getNomCategorieArt() {
+        return this.nomCategorieArt;
+    }
+
+    public void setCodeCategorieArticle(String codeCategorieArticle) {
+        this.codeCategorieArticle = codeCategorieArticle;
+    }
+
+    public void setNomCategorieArt(String nomCategorieArt) {
+        this.nomCategorieArt = nomCategorieArt;
     }
 }

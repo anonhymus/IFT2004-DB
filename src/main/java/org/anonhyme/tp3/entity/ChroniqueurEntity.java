@@ -1,8 +1,5 @@
 package org.anonhyme.tp3.entity;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import javax.persistence.*;
 import java.util.List;
 
@@ -14,8 +11,6 @@ import java.util.List;
  */
 @Entity
 @Table(name = "TP2_CHRONIQUEUR", schema = "ANONHYME")
-@Getter
-@Setter
 public class ChroniqueurEntity implements AuteurEntity {
     @Id
     @Column(name = "NO_CHRONIQUEUR")
@@ -46,5 +41,53 @@ public class ChroniqueurEntity implements AuteurEntity {
     @Override
     public String toString() {
         return nom + ", " + prenom;
+    }
+
+    public long getId() {
+        return this.id;
+    }
+
+    public String getNom() {
+        return this.nom;
+    }
+
+    public String getPrenom() {
+        return this.prenom;
+    }
+
+    public String getEntete() {
+        return this.entete;
+    }
+
+    public String getCourriel() {
+        return this.courriel;
+    }
+
+    public List<ChroniqueEntity> getChroniques() {
+        return this.chroniques;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
+    }
+
+    public void setEntete(String entete) {
+        this.entete = entete;
+    }
+
+    public void setCourriel(String courriel) {
+        this.courriel = courriel;
+    }
+
+    public void setChroniques(List<ChroniqueEntity> chroniques) {
+        this.chroniques = chroniques;
     }
 }

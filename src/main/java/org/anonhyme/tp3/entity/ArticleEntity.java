@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.sql.Timestamp;
 
 /**
@@ -19,11 +20,13 @@ import java.sql.Timestamp;
 public class ArticleEntity implements ArticleBase {
     @Id
     @Column(name = "NO_ARTICLE", nullable = false)
-    @GeneratedValue(generator = "ARTICLE_SEQ", strategy = GenerationType.SEQUENCE)
+    @SequenceGenerator(name = "id_seq", sequenceName = "ARTICLE_SEQ", allocationSize = 1)
+    @GeneratedValue(generator = "id_seq", strategy = GenerationType.SEQUENCE)
     private long noArticle;
 
     @Basic
     @Column(name = "DATE_PUBLICATION_ART")
+    @NotNull
     private Timestamp datePublicationArt;
     @Basic
     @Column(name = "DATE_MISE_A_JOUR_ART")
@@ -54,10 +57,10 @@ public class ArticleEntity implements ArticleBase {
     private Boolean boolEstMajeurArt;
     @Basic
     @Column(name = "LONGITUDE_ART")
-    private Long longitudeArt;
+    private Float longitudeArt;
     @Basic
     @Column(name = "LATITUDE_ART")
-    private Long latitudeArt;
+    private Float latitudeArt;
 
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "CODE_CATEGORIE_ARTICLE")
